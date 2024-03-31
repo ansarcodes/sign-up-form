@@ -1,2 +1,2 @@
 # sign-up-form
-[Project: Sign-up](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form) Form from TOP
+[Project: Sign-up Form](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form) from TOP
