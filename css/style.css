@@ -15,4 +15,41 @@ body {
 #main {
     flex: 1 1 calc(100%*2/3);
     background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#hero-text {
+    padding-left: 1rem;
+    text-align: left;
+    width: 75%;
+    margin: 1rem 0;
+}
+
+form {
+    background-color: green;
+    padding: 1rem;
+}
+label {
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+.container {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    padding: 0.5rem 0;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+#button {
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+h2 {
+    margin: 1rem 0;
+    padding: 0;
+    font-size: 1.25rem;
 }

@@ -1,17 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-up Form</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
     <div id="sidebar-section">
 
     </div>
-    <div id="main">
 
+    <div id="main">
+        <div id="hero-text">
+            <h2>This is not a real online service! You know you need something like this in your life to help you realize
+                your deepest dreams! Sign up to get started.</h2>
+            <h2>You know you want to.</h2>
+        </div>
+        <form action="" method="post" id="sign-up">
+            <h2>Let's do this!</h2>
+            <div class="container">
+                <div class="wrapper">
+                    <label for="first-name">FIRST NAME</label>
+                    <input type="text" name="first-name" id="first-name">
+                </div>
+                <div class="wrapper">
+                    <label for="last-name">LAST NAME</label>
+                    <input type="text" name="last-name" id="last-name">
+                </div>
+            </div>
+            <div class="container">
+                <div class="wrapper">
+                    <label for="email">EMAIL</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="wrapper">
+                    <label for="phone-number">PHONE NUMBER</label>
+                    <input type="tel" name="phone-number" id="phone-number">
+                </div>
+            </div>
+            <div class="container">
+                <div class="wrapper">
+                    <label for="password">PASSWORD</label>
+                    <input type="password" name="password" id="password">
+                </div>
+                <div class="wrapper">
+                    <label for="confirm-password">CONFIRM PASSWORD</label>
+                    <input type="password" name="confirm-password" id="confirm-password">
+                </div>
+            </div>
+        </form>
+        <div id="button">
+            <button type="reset" form="sign-up">Create Account</button>
+            <p>Already have an account? <a href="">Log in</a></p>
+        </div>
     </div>
 </body>
+
 </html>
