@@ -1,3 +1,6 @@
+:root {
+    --padding: 1.5625rem;
+}
 body {
     font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     display: flex;
@@ -5,6 +8,9 @@ body {
     margin: 0;
     padding: 0;
 }
+/* input {
+    appearance: none;
+} */
 #sidebar-section {
     flex: 1 1 calc(100%/3);
     background-position: center;
@@ -20,15 +26,15 @@ body {
     justify-content: center;
 }
 #hero-text {
-    padding-left: 1rem;
+    padding-left: var(--padding);
     text-align: left;
     width: 75%;
     margin: 1rem 0;
 }
 
 form {
-    background-color: green;
-    padding: 1rem;
+    background-color: white;
+    padding: var(--padding);
 }
 label {
     font-size: 0.8rem;
@@ -37,19 +43,33 @@ label {
 .container {
     display: flex;
     justify-content: flex-start;
-    gap: 1rem;
+    gap: 2.5rem;
     padding: 0.5rem 0;
 }
 .wrapper {
     display: flex;
     flex-direction: column;
+    width: 10rem;
 }
 #button {
-    padding-left: 1rem;
-    padding-top: 1rem;
+    padding-left: var(--padding);
+    padding-top: var(--padding);
+}
+input {
+    border: 0.125rem solid silver;
+    border-radius: 0.125rem;
+    height: 1.125rem;
+  }
+input:focus {
+    outline: none;
+    border: 0.125rem solid rgb(82, 82, 82);
+}
+input:active {
+    outline: none;
+    border: 0.125rem solid black;
 }
 h2 {
     margin: 1rem 0;
     padding: 0;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
 }
