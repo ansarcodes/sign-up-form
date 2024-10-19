@@ -26,6 +26,7 @@ body {
     justify-content: center;
 }
 #hero-text {
+    flex: 1 1 calc(100%/3);
     padding-left: var(--padding);
     text-align: left;
     width: 75%;
@@ -33,13 +34,13 @@ body {
 }
 
 form {
+    flex: 1 1 calc(100%/3);
     background-color: rgba(206, 206, 206, 0.501);
     padding-left: var(--padding);
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
 }
 label {
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: 700;
 }
 .container {
@@ -55,30 +56,33 @@ label {
 }
 #button {
     padding-left: var(--padding);
-    padding-top: 1rem;
+    padding-top: 2rem;
+    flex: 1 1 calc(100%/3);
 }
 input {
-    border: 0.125rem solid silver;
-    border-radius: 0.125rem;
-    height: 1.250rem;
+    border: 0.075rem solid silver;
+    border-radius: 0.25rem;
+    height: 1.5rem;
   }
 input:focus {
     outline: none;
-    border: 0.125rem solid rgb(82, 82, 82);
+    border: 0.075rem solid rgb(82, 82, 82);
 }
 input:active {
     outline: none;
-    border: 0.125rem solid black;
+    border: 0.075rem solid black;
 }
 h2 {
     margin: 1rem 0;
     padding: 0;
-    font-size: 1.5rem;
+    font-size: 1.75rem;
 }
 #button{
     font-size: 1rem;
+    flex-basis: 1;
 }
 button {
+
     appearance: none;
     padding: 0.5rem;
     font-size: 1rem;
