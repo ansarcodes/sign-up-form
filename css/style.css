@@ -76,6 +76,11 @@ input:invalid {
     outline: none;
     border: 0.075rem solid red;
 }
+input:optional {
+    border: 0.075rem dashed silver;
+    border-radius: 0.25rem;
+    height: 1.5rem;
+}
 h2 {
     margin: 1rem 0;
     padding: 0;
