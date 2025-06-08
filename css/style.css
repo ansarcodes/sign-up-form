@@ -1,5 +1,10 @@
 :root {
     --padding: 3.5rem;
+    --main-color: #adcdea;
+    --secondary-color:#91b5d7;
+    --bttn-color: #FFAFCC;
+    --bttn-color-hover: #FFC8DD;
+    --bttn-color-active: #CDB4DB;
 }
 body {
     font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -15,12 +20,12 @@ body {
     flex: 1 1 calc(100%/3);
     background-position: center;
     background-size: cover;
-    /* background-image: url("urlhere");  */
+    background-image: url("/images/bg.jpg"); 
     background-color: rgb(86, 1, 1);
 }
 #main {
     flex: 1 1 calc(100%*2/3);
-    background-color: rgb(3, 99, 99);
+    background-color: var(--main-color);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -35,7 +40,7 @@ body {
 
 form {
     flex: 1 1 calc(100%/3);
-    background-color: rgba(206, 206, 206, 0.501);
+    background-color: var(--secondary-color);
     padding-left: var(--padding);
     padding-bottom: 2rem;
 }
@@ -98,21 +103,21 @@ button {
     width: 13rem;
     border-style: none;
     border-radius: 0.25rem;
-    background-color: teal;
+    background-color: var(--bttn-color);
 }
 button:hover{
-    background-color: rgb(0, 145, 145);
+    background-color: var(--bttn-color-hover);
 }
 button:active {
-    background-color: rgb(1, 170, 170);
+    background-color: var(--bttn-color-active);
 }
 a {
     text-decoration: none;
-    color: green;
+    color: #a200ff;
 }
 a:hover {
-    color: rgb(0, 158, 0);
+    color: #b12dfd;
 }
 a:active {
-    color: rgb(40, 179, 40);
+    color: #7d00c6;
 }
