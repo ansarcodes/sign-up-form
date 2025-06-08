@@ -72,6 +72,10 @@ input:active {
     outline: none;
     border: 0.075rem solid black;
 }
+input:invalid {
+    outline: none;
+    border: 0.075rem solid red;
+}
 h2 {
     margin: 1rem 0;
     padding: 0;
