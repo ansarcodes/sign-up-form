@@ -20,8 +20,25 @@ body {
     flex: 1 1 calc(100%/3);
     background-position: center;
     background-size: cover;
-    background-image: url("/images/bg.jpg"); 
-    background-color: rgb(86, 1, 1);
+    background-image: url("/images/bg.jpg");
+}
+#logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#logo-image {
+    flex: 1 1 0;
+    width: 0;
+}
+#logo-text {
+    flex: 1 1 0;
+    width: 0;
+    font-size: 100%;
+    color: white;
 }
 #main {
     flex: 1 1 calc(100%*2/3);
